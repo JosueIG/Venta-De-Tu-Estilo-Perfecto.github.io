@@ -1,0 +1,130 @@
+body{
+    background-image: url(img/fondo\ para\ inicar\ seccion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    
+    
+    }
+    
+    
+    .Registrar{
+        padding: 5px 10px;
+        text-align: center;
+    }
+    .invitado{
+        padding: 5px 10px;
+        color: white;
+    }
+    .login-container {
+        background: white;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        width: 400px;
+        height: 600px;
+        text-align: center;
+        background-color: #e7dfa6;;
+        opacity: 100%;
+        justify-content: center;
+        position: relative;
+        margin-left: 80vh;
+        
+        
+    
+    
+    }
+    .login-container h2 {
+        margin-bottom: 20px;
+        padding: 20px;
+        color: white;
+    
+        
+    }
+    .login-container input {
+        width: 90%;
+        padding: 5px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .login-container button {
+        width: 100%;
+        padding: 10px;
+        background: #fbff00;
+        color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 10px;
+        text-align: center;
+    }
+    .login-container button:hover {
+        background: #ffee00;
+        padding: 10px;
+        text-align: center;
+    }
+    .Seción{
+        color: white;
+        padding: 60px;
+        left: 20px;
+    }
+    @media (max-width: 768px) {
+        .login-container {
+            width: 80%;
+            padding: 15px;
+        }
+    
+        .logo-banner {
+            width: 250px;
+            margin-top: 30px;
+        }
+    
+        .logo .imagen {
+            width: 150px;
+        }
+    
+        .nav-links a {
+            font-size: 16px;
+            padding: 8px 16px;
+        }
+    }
+    
+    
+    @media (max-width: 480px) {
+        .navbar {
+            flex-direction: column;
+            height: auto;
+            padding: 10px;
+        }
+    
+        .logo-banner {
+            width: 180px;
+            margin-top: 10px;
+            margin-right: 0;
+        }
+    
+        .logo .imagen {
+            width: 120px;
+        }
+    
+        .nav-links {
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 10px;
+        }
+    
+        .nav-links a {
+            font-size: 14px;
+            padding: 6px 12px;
+        }
+    
+        .contenido-principal {
+            margin-top: 120px;
+        }
+    
+        .login-container {
+            width: 90%;
+        }
+    }
